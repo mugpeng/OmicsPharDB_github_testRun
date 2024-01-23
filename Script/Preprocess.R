@@ -192,4 +192,15 @@ profile_vec_list <- list(
   mutation_site = gsub("_mutation_site", "", ls()[grepl("_mutation_site", ls())]),
   fusion = gsub("_fusion", "", ls()[grepl("_fusion", ls())])
 )
-
+# profile_list <- list(
+#   # Continuous
+#   cnv = gsub("_cnv", "", ls()[grepl("_cnv", ls())]),
+#   protein = gsub("_protein", "", ls()[grepl("_protein", ls())]),
+#   meth = gsub("_meth", "", ls()[grepl("_meth", ls())]),
+#   mRNA = gsub("_exp", "", ls()[grepl("_exp", ls())]),
+#   drug = tmp$drug,
+#   # Discrete
+#   mutation_gene = gsub("_mutation_gene", "", ls()[grepl("_mutation_gene", ls())]),
+#   mutation_site = gsub("_mutation_site", "", ls()[grepl("_mutation_site", ls())]),
+#   fusion = gsub("_fusion", "", ls()[grepl("_fusion", ls())])
+# )
